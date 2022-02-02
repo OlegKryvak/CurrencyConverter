@@ -1,0 +1,27 @@
+.container {
+  margin: 200px 0 50px 0;
+  display: flex;
+  justify-content: center;
+}
+.table {
+  border: 1px solid grey;
+}
+.table thead {
+  width: 250px;
+  text-align: center;
+  height: 60px;
+  line-height: 40px;
+  background-color: #087c4c;
+  color: white;
+  font-size: 17px;
+  font-weight: 900;
+}
+.table tr {
+  height: 40px;
+  width: 100%;
+}
+.table td {
+  width: 250px;
+  text-align: center;
+  border: 1px solid grey;
+}

@@ -1,0 +1,40 @@
+.container {
+  margin: 200px 100px 0 100px;
+}
+
+.container > div:first-child {
+  display: flex;
+  align-items: center;
+}
+.container >div:last-child{
+    width: 100%;
+    text-align: center;
+    color: red;
+    font-size: 20px;
+}
+.select {
+  width: 200px;
+  margin: 50px;
+}
+
+.input {
+  margin: 50px;
+  height: 30px;
+  padding-left: 15px;
+  border: 2px solid green;
+}
+
+.container button {
+  margin: 50px;
+}
+
+.converter {
+  min-width: 350px;
+  height: 50px;
+  background-color: blue;
+  color: white;
+  line-height: 50px;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 600;
+}
