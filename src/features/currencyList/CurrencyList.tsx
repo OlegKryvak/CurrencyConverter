@@ -31,9 +31,6 @@ export const CurrencyList = () => {
             <td>Eu</td>
           </thead>
           {Object.entries(currunciesData).map(([key, value]) => (
-            // <div key={key}>
-            //   {key}:{value}
-            // </div>
             <tr key={key}>
               <td>1</td>
               <td>{key}</td>
