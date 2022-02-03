@@ -14,20 +14,7 @@ function App() {
       <div className="container">
         <Suspense
           fallback={
-            <div className="lds-spinner">
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-            </div>
+            <div id="loading"></div>
           }
         >
           <Header />
